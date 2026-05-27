@@ -20,7 +20,7 @@ import TablePaginationDemo from "../components/commonComponents/tablePagination"
 import SpeedDial from "../components/commonComponents/speedDial";
 import Stepper from "../components/commonComponents/stepper";
 import Tabs from "../components/commonComponents/tabs";
-import ImageList from "../components/commonComponents/imageList";
+// import ImageList from "../components/commonComponents/imageList";
 import ColumnVisibility from "../components/commonComponents/columnVisibility";
 import BasicUndoRedo from "../components/commonComponents/undoredoTable";
 import ServerSideLazyLoadingViewport from "../components/commonComponents/lazyLoadingTable";
@@ -28,6 +28,9 @@ import ResponsiveDatePickers from "../components/commonComponents/datePicker";
 import PortfolioSection from "../components/commonComponents/subcomponents/PortfolioSection";
 import NestedModel from "../components/commonComponents/nestedModel";
 import DateRangePicker from "../components/commonComponents/dateRange";
+import Form from "../components/commonComponents/form";
+import BarCharts from "../components/commonComponents/barCharts";
+import PieActiveArc from "../components/commonComponents/PieActiveArc";
 
 const Home = () => {
   return (
@@ -116,9 +119,9 @@ const Home = () => {
         <Tabs />
       </PortfolioSection>
 
-      <PortfolioSection title="Image List">
+      {/* <PortfolioSection title="Image List">
         <ImageList />
-      </PortfolioSection>
+      </PortfolioSection> */}
 
       <PortfolioSection title="Column Visibility">
         <ColumnVisibility />
@@ -142,6 +145,18 @@ const Home = () => {
 
       <PortfolioSection title="Date Range Picker">
         <DateRangePicker />
+      </PortfolioSection>
+
+      <PortfolioSection title="Form">
+        <Form />
+      </PortfolioSection>
+
+      <PortfolioSection title="Bar Charts">
+        <BarCharts />
+      </PortfolioSection>
+
+      <PortfolioSection title="Pie Chart">
+        <PieActiveArc />
       </PortfolioSection>
     </>
   );
