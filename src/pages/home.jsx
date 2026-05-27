@@ -21,47 +21,121 @@ import SpeedDial from "../components/commonComponents/speedDial";
 import Stepper from "../components/commonComponents/stepper";
 import Tabs from "../components/commonComponents/tabs";
 import ImageList from "../components/commonComponents/imageList";
-// import NestedModal from "../components/commonComponents/nestedModal";
 import ColumnVisibility from "../components/commonComponents/columnVisibility";
 import BasicUndoRedo from "../components/commonComponents/undoredoTable";
 import ServerSideLazyLoadingViewport from "../components/commonComponents/lazyLoadingTable";
 import ResponsiveDatePickers from "../components/commonComponents/datePicker";
-// import ResponsiveDateRangePickers from "../components/commonComponents/dateRange";
-
+import PortfolioSection from "../components/commonComponents/PortfolioSection";
 
 const Home = () => {
   return (
     <>
-      <Buttons />
-      <ComboBox />
-      <BasicSwitches />
-      <BasicTextFields />
-      <Avatars />
-      <Badges />
-      <Table />
-      <Alert />
-      <Backdrop />
-      <Card />
-      <CardWithoutImage />
-      <BottomNavigation />
-      <CollapsedBreadcrumbs />
-      <Drawer />
-      <AccountMenu />
-      <BasicMenubar />
-      <PaginationControlled />
-      <TablePaginationDemo />
-      <SpeedDial />
-      <Stepper />
-      <Tabs />
-      <ImageList />
-      {/* <NestedModal /> */}
+      <PortfolioSection title="Buttons">
+        <Buttons />
+      </PortfolioSection>
+
+      <PortfolioSection title="ComboBox">
+        <ComboBox />
+      </PortfolioSection>
+
+      <PortfolioSection title="Basic Switches">
+        <BasicSwitches />
+      </PortfolioSection>
+
+      <PortfolioSection title="Basic Text Fields">
+        <BasicTextFields />
+      </PortfolioSection>
+
+      <PortfolioSection title="Avatars">
+        <Avatars />
+      </PortfolioSection>
+
+      <PortfolioSection title="Badges">
+        <Badges />
+      </PortfolioSection>
+
+      <PortfolioSection title="Table">
+        <Table />
+      </PortfolioSection>
+
+      <PortfolioSection title="Alert">
+        <Alert />
+      </PortfolioSection>
+
+      <PortfolioSection title="Backdrop">
+        <Backdrop />
+      </PortfolioSection>
+
+      <PortfolioSection title="Card">
+        <Card />
+      </PortfolioSection>
+
+      <PortfolioSection title="Card Without Image">
+        <CardWithoutImage />
+      </PortfolioSection>
+
+      <PortfolioSection title="Bottom Navigation">
+        <BottomNavigation />
+      </PortfolioSection>
+
+      <PortfolioSection title="Breadcrumbs">
+        <CollapsedBreadcrumbs />
+      </PortfolioSection>
+
+      <PortfolioSection title="Drawer">
+        <Drawer />
+      </PortfolioSection>
+
+      <PortfolioSection title="Account Menu">
+        <AccountMenu />
+      </PortfolioSection>
+
+      <PortfolioSection title="Menu Bar">
+        <BasicMenubar />
+      </PortfolioSection>
+
+      <PortfolioSection title="Pagination Controlled">
+        <PaginationControlled />
+      </PortfolioSection>
+
+      <PortfolioSection title="Table Pagination">
+        <TablePaginationDemo />
+      </PortfolioSection>
+
+      <PortfolioSection title="Speed Dial">
+        <SpeedDial />
+      </PortfolioSection>
+
+      <PortfolioSection title="Stepper">
+        <Stepper />
+      </PortfolioSection>
+
+      <PortfolioSection title="Tabs">
+        <Tabs />
+      </PortfolioSection>
+
+      <PortfolioSection title="Image List">
+        <ImageList />
+      </PortfolioSection>
+
+      <PortfolioSection title="Column Visibility">
         <ColumnVisibility />
+      </PortfolioSection>
+
+      <PortfolioSection title="Undo/Redo Table">
         <BasicUndoRedo />
+      </PortfolioSection>
+
+      <PortfolioSection title="Lazy Loading Table">
         <ServerSideLazyLoadingViewport />
+      </PortfolioSection>
+
+      <PortfolioSection title="Date Picker">
         <ResponsiveDatePickers />
-        {/* <ResponsiveDateRangePickers /> */}
+      </PortfolioSection>
     </>
   );
 };
 
 export default Home;
+

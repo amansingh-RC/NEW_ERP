@@ -13,7 +13,7 @@ export default function ResponsiveDatePickers() {
         ]}
       >
         <DemoItem label="Responsive variant">
-          <DatePicker defaultValue={dayjs('2022-04-17')} />
+          <DatePicker defaultValue={dayjs('2026-05-26')} />
         </DemoItem>
       </DemoContainer>
     </LocalizationProvider>
