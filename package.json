@@ -18,6 +18,7 @@
     "@mui/x-data-grid": "^9.3.0",
     "@mui/x-data-grid-generator": "^9.3.0",
     "@mui/x-date-pickers": "^9.3.0",
+    "@mui/x-date-pickers-pro": "^9.3.0",
     "@tailwindcss/vite": "^4.3.0",
     "dayjs": "^1.11.21",
     "react": "^19.2.6",

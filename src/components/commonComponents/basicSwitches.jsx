@@ -6,10 +6,26 @@ export default function BasicSwitches() {
   return (
     <>
       <h2 className="m-5">Basic Switches</h2>
-      <Switch {...label} defaultChecked />
-      <Switch {...label} />
+      <Switch {...label} defaultChecked sx={{
+          "& .MuiSwitch-switchBase.Mui-checked": {
+            color: "#262262",
+          },
+          "& .MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track": {
+            backgroundColor: "#262262",
+          },
+        }}/>
+      <Switch {...label} sx={{
+          "& .MuiSwitch-switchBase.Mui-checked": {
+            color: "#D3AA4C",
+          },
+          "& .MuiSwitch-switchBase.Mui-checked + .MuiSwitch-track": {
+            backgroundColor: "#D3AA4C",
+          },
+        }} />
       <Switch {...label} disabled defaultChecked />
       <Switch {...label} disabled />
     </>
   );
 }
+
+

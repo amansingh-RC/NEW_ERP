@@ -10,10 +10,12 @@ import {
   MenuSeparator,
   MenuSubmenuRoot,
   MenuSubmenuTrigger,
-} from './menubar/Menubar';
+} from './subcomponents/Menubar';
 
 export default function BasicMenubar() {
   return (
+    <>
+      <h2 className="m-5">Menu Bar</h2>
     <Menubar>
       <MenuRoot>
         <MenuTrigger>File</MenuTrigger>
@@ -57,5 +59,6 @@ export default function BasicMenubar() {
         </MenuPortal>
       </MenuRoot>
     </Menubar>
+    </>
   );
 }

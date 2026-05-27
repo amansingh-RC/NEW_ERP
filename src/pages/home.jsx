@@ -8,7 +8,7 @@ import Badges from "../components/commonComponents/Badges";
 import Table from "../components/commonComponents/table";
 import Alert from "../components/commonComponents/alert";
 import Backdrop from "../components/commonComponents/backdrop";
-import Card from "../components/commonComponents/cardWithComponents";
+import Card from "../components/commonComponents/cardWithImage";
 import CardWithoutImage from "../components/commonComponents/cardwithoutimage";
 import BottomNavigation from "../components/commonComponents/bottomNavigation";
 import CollapsedBreadcrumbs from "../components/commonComponents/breadcrumbs";
@@ -25,7 +25,9 @@ import ColumnVisibility from "../components/commonComponents/columnVisibility";
 import BasicUndoRedo from "../components/commonComponents/undoredoTable";
 import ServerSideLazyLoadingViewport from "../components/commonComponents/lazyLoadingTable";
 import ResponsiveDatePickers from "../components/commonComponents/datePicker";
-import PortfolioSection from "../components/commonComponents/PortfolioSection";
+import PortfolioSection from "../components/commonComponents/subcomponents/PortfolioSection";
+import NestedModel from "../components/commonComponents/nestedModel";
+import DateRangePicker from "../components/commonComponents/dateRange";
 
 const Home = () => {
   return (
@@ -132,6 +134,14 @@ const Home = () => {
 
       <PortfolioSection title="Date Picker">
         <ResponsiveDatePickers />
+      </PortfolioSection>
+
+      <PortfolioSection title="Nested Model">
+        <NestedModel />
+      </PortfolioSection>
+
+      <PortfolioSection title="Date Range Picker">
+        <DateRangePicker />
       </PortfolioSection>
     </>
   );

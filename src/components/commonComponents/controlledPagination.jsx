@@ -1,7 +1,7 @@
-import * as React from 'react';
-import Typography from '@mui/material/Typography';
-import Pagination from '@mui/material/Pagination';
-import Stack from '@mui/material/Stack';
+import * as React from "react";
+import Typography from "@mui/material/Typography";
+import Pagination from "@mui/material/Pagination";
+import Stack from "@mui/material/Stack";
 
 export default function PaginationControlled() {
   const [page, setPage] = React.useState(1);
@@ -10,9 +10,12 @@ export default function PaginationControlled() {
   };
 
   return (
-    <Stack spacing={2}>
-      <Typography>Page: {page}</Typography>
-      <Pagination count={10} page={page} onChange={handleChange} />
-    </Stack>
+    <>
+      <h2 className="m-5">Pagination</h2>
+      <Stack spacing={2}>
+        <Typography>Page: {page}</Typography>
+        <Pagination count={10} page={page} onChange={handleChange} />
+      </Stack>
+    </>
   );
 }

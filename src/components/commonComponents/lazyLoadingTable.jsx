@@ -35,6 +35,8 @@ function ServerSideLazyLoadingViewport() {
   );
 
   return (
+    <>
+      <h2 className="m-5">Lazy Loading Table</h2>
     <div style={{ width: '100%', height: 400 }}>
       <DataGridPro
         {...props}
@@ -43,6 +45,7 @@ function ServerSideLazyLoadingViewport() {
         paginationModel={{ page: 0, pageSize: 10 }}
       />
     </div>
+    </>
   );
 }
 

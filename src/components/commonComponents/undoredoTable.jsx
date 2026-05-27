@@ -1,25 +1,28 @@
-import * as React from 'react';
-import Box from '@mui/material/Box';
-import { DataGridPremium } from '@mui/x-data-grid-premium';
-import { useDemoData } from '@mui/x-data-grid-generator';
+import * as React from "react";
+import Box from "@mui/material/Box";
+import { DataGridPremium } from "@mui/x-data-grid-premium";
+import { useDemoData } from "@mui/x-data-grid-generator";
 
 export default function BasicUndoRedo() {
   const { data } = useDemoData({
-    dataSet: 'Commodity',
+    dataSet: "Commodity",
     rowLength: 200,
     editable: true,
   });
 
   return (
-    <Box sx={{ height: 450, width: '100%' }}>
-      <DataGridPremium
-        {...data}
-        pagination
-        showToolbar
-        disableRowSelectionOnClick
-        cellSelection
-        disablePivoting
-      />
-    </Box>
+    <>
+      <h2 className="m-5">Undo/Redo</h2>
+      <Box sx={{ height: 450, width: "100%" }}>
+        <DataGridPremium
+          {...data}
+          pagination
+          showToolbar
+          disableRowSelectionOnClick
+          cellSelection
+          disablePivoting
+        />
+      </Box>
+    </>
   );
 }
