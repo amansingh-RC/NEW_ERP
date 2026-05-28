@@ -23,7 +23,6 @@ import Tabs from "../components/commonComponents/tabs";
 // import ImageList from "../components/commonComponents/imageList";
 import ColumnVisibility from "../components/commonComponents/columnVisibility";
 import BasicUndoRedo from "../components/commonComponents/undoredoTable";
-import ServerSideLazyLoadingViewport from "../components/commonComponents/lazyLoadingTable";
 import ResponsiveDatePickers from "../components/commonComponents/datePicker";
 import PortfolioSection from "../components/commonComponents/subcomponents/PortfolioSection";
 import NestedModel from "../components/commonComponents/nestedModel";
@@ -164,10 +163,6 @@ const Home = () => {
 
       <PortfolioSection title="Undo/Redo Table">
         <BasicUndoRedo />
-      </PortfolioSection>
-
-      <PortfolioSection title="Lazy Loading Table">
-        <ServerSideLazyLoadingViewport />
       </PortfolioSection>
 
       <PortfolioSection title="Date Picker">
