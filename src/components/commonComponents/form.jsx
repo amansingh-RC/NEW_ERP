@@ -10,8 +10,6 @@ import {
   InputAdornment,
 } from "@mui/material";
 
-import SearchIcon from "@mui/icons-material/Search";
-import CalendarTodayIcon from "@mui/icons-material/CalendarToday";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
 export default function SalesOrderForm() {
@@ -131,13 +129,6 @@ export default function SalesOrderForm() {
               label="Date"
               margin="normal"
               defaultValue=""
-              InputProps={{
-                endAdornment: (
-                  <InputAdornment position="end">
-                    <CalendarTodayIcon fontSize="small" />
-                  </InputAdornment>
-                ),
-              }}
             />
 
             <TextField
@@ -145,13 +136,6 @@ export default function SalesOrderForm() {
               label="Customer"
               margin="normal"
               defaultValue=""
-              InputProps={{
-                endAdornment: (
-                  <InputAdornment position="end">
-                    <SearchIcon />
-                  </InputAdornment>
-                ),
-              }}
             />
 
             <Grid container spacing={2}>
@@ -179,13 +163,6 @@ export default function SalesOrderForm() {
               label="Shipment Date"
               margin="normal"
               placeholder="mm/dd/yyyy"
-              InputProps={{
-                endAdornment: (
-                  <InputAdornment position="end">
-                    <CalendarTodayIcon fontSize="small" />
-                  </InputAdornment>
-                ),
-              }}
             />
 
             <TextField

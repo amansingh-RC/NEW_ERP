@@ -31,6 +31,13 @@ import DateRangePicker from "../components/commonComponents/dateRange";
 import Form from "../components/commonComponents/form";
 import BarCharts from "../components/commonComponents/barCharts";
 import PieActiveArc from "../components/commonComponents/PieActiveArc";
+import Skeleton from "../components/commonComponents/skeleton";
+import SnackbarVariants from "../components/commonComponents/snackbar/snackbarVarients";
+import SnackbarInvertedColors from "../components/commonComponents/snackbar/snackInverted";
+import DialogVerticalScroll from "../components/commonComponents/verticalScrollModel";
+import AlertDialog from "../components/commonComponents/alertDialog";
+import MobileModel from "../components/commonComponents/mobileModal";
+import Accordion from "../components/commonComponents/accordion";
 
 const Home = () => {
   return (
@@ -57,6 +64,34 @@ const Home = () => {
 
       <PortfolioSection title="Badges">
         <Badges />
+      </PortfolioSection>
+
+      <PortfolioSection title="Skeleton">
+        <Skeleton />
+      </PortfolioSection>
+
+      <PortfolioSection title="Snackbar Variants">
+        <SnackbarVariants />
+      </PortfolioSection>
+
+      <PortfolioSection title="Snackbar Inverted Colors">
+        <SnackbarInvertedColors />
+      </PortfolioSection>
+
+      <PortfolioSection title="Dialog Vertical Scroll">
+        <DialogVerticalScroll />
+      </PortfolioSection>
+
+      <PortfolioSection title="Alert Dialog">
+        <AlertDialog />
+      </PortfolioSection>
+
+      <PortfolioSection title="Mobile Model">
+        <MobileModel />
+      </PortfolioSection>
+
+      <PortfolioSection title="Accordion">
+        <Accordion />
       </PortfolioSection>
 
       <PortfolioSection title="Table">
@@ -163,4 +198,3 @@ const Home = () => {
 };
 
 export default Home;
-
