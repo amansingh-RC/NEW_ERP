@@ -7,6 +7,8 @@ export default function SnackbarWithDecorators() {
   const [open, setOpen] = React.useState(false);
 
   return (
+    <>
+    <h2 className='mb-2'>Snackbar</h2>
     <React.Fragment>
       <Button variant="outlined" color="neutral" onClick={() => setOpen(true)}>
         Show Snackbar
@@ -32,5 +34,6 @@ export default function SnackbarWithDecorators() {
         Your message was sent successfully.
       </Snackbar>
     </React.Fragment>
+    </>
   );
 }

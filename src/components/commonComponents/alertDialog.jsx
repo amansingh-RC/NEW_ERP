@@ -12,6 +12,8 @@ import WarningRoundedIcon from '@mui/icons-material/WarningRounded';
 export default function AlertDialogModal() {
   const [open, setOpen] = React.useState(false);
   return (
+    <>
+    <h2 className='mb-2'>Alert Dialog Modal</h2>
     <React.Fragment>
       <Button
         variant="outlined"
@@ -42,5 +44,6 @@ export default function AlertDialogModal() {
         </ModalDialog>
       </Modal>
     </React.Fragment>
+    </>
   );
 }
