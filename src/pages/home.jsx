@@ -26,7 +26,6 @@ import BasicUndoRedo from "../components/commonComponents/undoredoTable";
 import ResponsiveDatePickers from "../components/commonComponents/datePicker";
 import PortfolioSection from "../components/commonComponents/subcomponents/PortfolioSection";
 import NestedModel from "../components/commonComponents/nestedModel";
-import DateRangePicker from "../components/commonComponents/dateRange";
 import Form from "../components/commonComponents/form";
 import BarCharts from "../components/commonComponents/barCharts";
 import PieActiveArc from "../components/commonComponents/PieActiveArc";
@@ -188,14 +187,11 @@ const Home = () => {
         <PortfolioSection title="Date Picker" compact>
           <ResponsiveDatePickers />
         </PortfolioSection>
-        <PortfolioSection title="Date Range Picker" compact>
-          <DateRangePicker />
+
+        <PortfolioSection title="Nested Modal">
+          <NestedModel />
         </PortfolioSection>
       </Box>
-
-      <PortfolioSection title="Nested Modal">
-        <NestedModel />
-      </PortfolioSection>
 
       <PortfolioSection title="Form">
         <Form />

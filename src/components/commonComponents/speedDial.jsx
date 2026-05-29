@@ -18,7 +18,6 @@ const actions = [
 export default function OpenIconSpeedDial() {
   return (
     <>
-      <h2 className="m-5">Speed Dial</h2>
       <Box sx={{ height: 320, transform: "translateZ(0px)", flexGrow: 1 }}>
         <SpeedDial
           ariaLabel="SpeedDial openIcon example"

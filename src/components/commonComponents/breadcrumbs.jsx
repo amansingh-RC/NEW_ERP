@@ -11,7 +11,6 @@ function handleClick(event) {
 export default function CollapsedBreadcrumbs() {
   return (
     <>
-      <h2 className="m-5">Breadcrumbs</h2>
       <div role="presentation" onClick={handleClick}>
         <Breadcrumbs maxItems={2} aria-label="breadcrumb">
           <Link underline="hover" color="inherit" href="#">

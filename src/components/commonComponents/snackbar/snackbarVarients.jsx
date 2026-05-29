@@ -8,7 +8,6 @@ export default function SnackbarWithDecorators() {
 
   return (
     <>
-    <h2 className='mb-2'>Snackbar</h2>
     <React.Fragment>
       <Button variant="outlined" color="neutral" onClick={() => setOpen(true)}>
         Show Snackbar

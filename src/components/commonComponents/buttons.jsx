@@ -4,7 +4,6 @@ import Button from "@mui/material/Button";
 export default function BasicButtons() {
   return (
     <>
-      <h1>Buttons</h1>
       <Stack spacing={2} direction="row" sx={{ marginTop: "20px" }}>
         <Button
           variant="contained"

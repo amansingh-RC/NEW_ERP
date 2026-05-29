@@ -9,7 +9,6 @@ export default function SnackbarInvertedColors() {
 
   return (
     <>
-    <h2 className='mb-2'>Snackbar Inverted</h2>
     <React.Fragment>
       <Button variant="outlined" color="neutral" onClick={() => setOpen(true)}>
         Show Snackbar

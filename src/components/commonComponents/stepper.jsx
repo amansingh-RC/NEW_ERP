@@ -65,7 +65,6 @@ export default function HorizontalNonLinearStepper() {
 
   return (
     <>
-      <h2 className="m-5">Stepper</h2>
       <Box sx={{ width: "100%" }}>
         <Stepper nonLinear activeStep={activeStep}>
           {steps.map((label, index) => (

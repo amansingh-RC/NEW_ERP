@@ -15,7 +15,6 @@ export default function LabelBottomNavigation() {
 
   return (
     <>
-      <h2 className="m-5">Bottom Navigation</h2>
       <BottomNavigation
         sx={{ width: 500 }}
         value={value}

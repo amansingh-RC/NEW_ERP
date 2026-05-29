@@ -27,7 +27,6 @@ function SelectActionCard() {
   const [selectedCard, setSelectedCard] = React.useState(0);
   return (
     <>
-      <h2 className="m-5">Card Without Image</h2>
       <Box
         sx={{
           width: "100%",

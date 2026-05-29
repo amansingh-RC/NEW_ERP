@@ -58,7 +58,6 @@ export default function NestedModal() {
 
   return (
     <>
-      <h2 className='mb-2'>Multi Modal</h2>
     <div>
       <Button onClick={handleOpen}>Open modal</Button>
       <Modal

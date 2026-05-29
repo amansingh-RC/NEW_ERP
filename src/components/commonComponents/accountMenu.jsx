@@ -23,7 +23,6 @@ export default function AccountMenu() {
   };
   return (
     <React.Fragment>
-      <h2 className="m-5">Account Menu</h2>
       <Box sx={{ display: 'flex', alignItems: 'center', textAlign: 'center' }}>
         <Typography sx={{ minWidth: 100 }}>Contact</Typography>
         <Typography sx={{ minWidth: 100 }}>Profile</Typography>

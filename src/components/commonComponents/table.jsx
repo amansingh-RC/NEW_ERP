@@ -296,7 +296,6 @@ export default function EnhancedTable() {
 
   return (
     <>
-    <h2 className="m-5">Table</h2>
       <Container
         sx={{
           marginTop: "40px",

@@ -16,7 +16,6 @@ export default function DialogVerticalScroll() {
   const [scroll, setScroll] = React.useState(true);
   return (
     <>
-      <h2 className='mb-2'>Vertical Scroll Modal</h2>
       <React.Fragment>
         <Stack direction="row" spacing={1}>
           <Button

@@ -16,7 +16,6 @@ export default function TablePaginationDemo() {
 
   return (
     <>
-      <h2 className="m-5">Table Pagination</h2>
       <TablePagination
         component="div"
         count={100}

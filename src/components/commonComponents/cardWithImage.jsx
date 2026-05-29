@@ -9,7 +9,6 @@ import CardActions from "@mui/material/CardActions";
 export default function MultiActionAreaCard() {
   return (
     <>
-    <h2 className="m-5">Card With Image</h2>
       <Card sx={{ maxWidth: 345 }}>
         <CardActionArea>
           <CardMedia

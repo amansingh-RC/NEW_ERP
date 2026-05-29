@@ -5,7 +5,7 @@ import MailIcon from "@mui/icons-material/Mail";
 export default function BadgeMax() {
   return (
     <>
-      <h2 className="m-5">Badges</h2>
+     
       <Stack spacing={4} direction="row" sx={{ color: "action.active" }}>
         <Badge color="secondary" badgeContent={99} sx={{
             "& .MuiBadge-badge": {

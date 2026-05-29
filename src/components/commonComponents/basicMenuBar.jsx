@@ -15,7 +15,6 @@ import {
 export default function BasicMenubar() {
   return (
     <>
-      <h2 className="m-5">Menu Bar</h2>
     <Menubar>
       <MenuRoot>
         <MenuTrigger>File</MenuTrigger>

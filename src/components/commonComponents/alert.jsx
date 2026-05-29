@@ -6,7 +6,6 @@ import Container from "@mui/material/Container";
 export default function ActionAlerts() {
   return (
     <>
-    <h2 className=" m-5">Alert</h2>
       <Container className="w-5xl">
         <Stack sx={{ width: "100%" }} spacing={2}>
           <Alert severity="warning" onClose={() => {}}>

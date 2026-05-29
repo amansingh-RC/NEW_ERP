@@ -7,7 +7,6 @@ import { DatePicker } from "@mui/x-date-pickers/DatePicker";
 export default function ResponsiveDatePickers() {
   return (
     <>
-      <h2 className="m-5">Date Picker</h2>
       <LocalizationProvider dateAdapter={AdapterDayjs}>
         <DemoContainer components={["DatePicker"]}>
           <DemoItem>

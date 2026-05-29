@@ -1,11 +1,4 @@
-import {
-  Box,
-  Button,
-  IconButton,
-  InputBase,
-  Stack,
-  Typography,
-} from "@mui/material";
+import { Box, Button, IconButton, InputBase, Stack, Typography,} from "@mui/material";
 import DeleteIcon from "@mui/icons-material/Delete";
 import EditIcon from "@mui/icons-material/Edit";
 import HomeIcon from "@mui/icons-material/Home";
@@ -31,14 +24,14 @@ const colorCards = [
     swatches: ["#0a091d", "#141240", "#1c1858", "#262262", "#403a9e", "#8880cf", "#c4c0e8"],
   },
   {
-    name: "Tertiary",
+    name: "Inverted",
     hex: "#ECC160",
     bg: "#ECC160",
     textColor: "#5a4410",
     swatches: ["#7a6010", "#a88820", "#c8a038", "#ecc160", "#f0d080", "#f5e4a8", "#faf3d8"],
   },
   {
-    name: "Neutral",
+    name: "Outlined",
     hex: "#F8FAFC",
     bg: "#ffffff",
     textColor: "#333",
@@ -103,25 +96,6 @@ export default function ArchitecturalLedger() {
         fontFamily: "sans-serif",
       }}
     >
-      {/* Header */}
-      <Box sx={{ display: "flex", alignItems: "center", gap: 1, mb: 2 }}>
-        <Box
-          sx={{
-            width: 22,
-            height: 22,
-            bgcolor: "#262262",
-            borderRadius: "50%",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-          }}
-        >
-          <LinkIcon sx={{ color: "#fff", fontSize: 13 }} />
-        </Box>
-        <Typography sx={{ fontWeight: 600, fontSize: 14, color: "#333" }}>
-          Architectural Ledger
-        </Typography>
-      </Box>
 
       {/* Content */}
       <Box sx={{ display: "flex", gap: 1.5 }}>
@@ -171,22 +145,22 @@ export default function ArchitecturalLedger() {
                   fontSize: 12,
                   px: 2,
                   boxShadow: "none",
-                  "&:hover": { bgcolor: "#c49840", boxShadow: "none" },
+                  "&:hover": { bgcolor: "#D3AA4C", boxShadow: "none" },
                 }}
               >
                 Primary
               </Button>
               <Button
-                variant="outlined"
+                variant="Secondary"
                 size="small"
                 sx={{
-                  color: "#444",
+                  color: "#fff",
                   borderRadius: "20px",
                   textTransform: "none",
                   fontSize: 12,
                   px: 2,
                   borderColor: "#bbb",
-                  bgcolor: "#fff",
+                  bgcolor: "#262262",
                 }}
               >
                 Secondary
@@ -194,17 +168,17 @@ export default function ArchitecturalLedger() {
             </Stack>
             <Stack direction="row" spacing={1}>
               <Button
-                variant="contained"
+                variant="Inverted"
                 size="small"
                 sx={{
-                  bgcolor: "#262262",
+                  bgcolor: "#ECC160",
                   color: "#fff",
                   borderRadius: "20px",
                   textTransform: "none",
                   fontSize: 12,
                   px: 2,
                   boxShadow: "none",
-                  "&:hover": { bgcolor: "#1c1858", boxShadow: "none" },
+                  "&:hover": { bgcolor: "#ECC160", boxShadow: "none" },
                 }}
               >
                 Inverted
@@ -307,7 +281,7 @@ export default function ArchitecturalLedger() {
                 bgcolor: "#D3AA4C",
                 width: 42,
                 height: 42,
-                "&:hover": { bgcolor: "#c49840" },
+                "&:hover": { bgcolor: "#D3AA4C" },
               }}
             >
               <EditIcon sx={{ color: "#fff", fontSize: 19 }} />
@@ -317,14 +291,14 @@ export default function ArchitecturalLedger() {
               size="small"
               startIcon={<EditIcon sx={{ fontSize: 14 }} />}
               sx={{
-                bgcolor: "#ECC160",
+                bgcolor: "#D3AA4C",
                 color: "#5a4410",
                 borderRadius: "20px",
                 textTransform: "none",
                 fontSize: 12,
                 px: 2,
                 boxShadow: "none",
-                "&:hover": { bgcolor: "#d4ad50", boxShadow: "none" },
+                "&:hover": { bgcolor: "#D3AA4C", boxShadow: "none" },
               }}
             >
               Label
@@ -332,8 +306,8 @@ export default function ArchitecturalLedger() {
           </Box>
 
           <Box sx={{ ...cellSx, gap: 1 }}>
-            <IconButton sx={{ bgcolor: "#4a5340", width: 38, height: 38, "&:hover": { bgcolor: "#3a4230" } }}>
-              <EditIcon sx={{ color: "#fff", fontSize: 17 }} />
+            <IconButton sx={{ bgcolor: "#F8FAFC", width: 38, height: 38, "&:hover": { bgcolor: "#F8FAFC" } }}>
+              <EditIcon sx={{ color: "#000000", fontSize: 17 }} />
             </IconButton>
             <IconButton sx={{ bgcolor: "#262262", width: 38, height: 38, "&:hover": { bgcolor: "#1c1858" } }}>
               <HubIcon sx={{ color: "#fff", fontSize: 17 }} />

@@ -9,7 +9,6 @@ import Typography from '@mui/joy/Typography';
 export default function AnimationSkeleton() {
   return (
     <>
-    <h2 className='mb-2'>Skeleton</h2>
     <Stack spacing={2} useFlexGap>
       <Card variant="outlined" sx={{ width: 343 }}>
         <CardContent orientation="horizontal">

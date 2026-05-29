@@ -12,7 +12,6 @@ export default function ScrollableTabsButtonAuto() {
 
   return (
     <>
-      <h2 className="m-5">Tabs</h2>
       <Box sx={{ maxWidth: { xs: 320, sm: 480 }, bgcolor: "background.paper" }}>
         <Tabs
           value={value}

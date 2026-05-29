@@ -10,7 +10,6 @@ export default function ColumnSelectorGrid() {
 
   return (
     <>
-      <h2 className="m-5">Column Visibility</h2>
     <div style={{ height: 400, width: '100%' }}>
       <DataGrid {...data} showToolbar />
     </div>

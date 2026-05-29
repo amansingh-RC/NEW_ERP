@@ -11,7 +11,6 @@ export default function PaginationControlled() {
 
   return (
     <>
-      <h2 className="m-5">Pagination</h2>
       <Stack spacing={2}>
         <Typography>Page: {page}</Typography>
         <Pagination count={10} page={page} onChange={handleChange} />

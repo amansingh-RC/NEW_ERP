@@ -93,9 +93,6 @@ export default function AdvancedTable() {
 
   return (
     <Box sx={{ p: 4 }}>
-      <Typography variant="p" mb={2}>
-        Undo/Redo Table
-      </Typography>
 
       <Stack direction="row" spacing={1} mb={2}>
         <Tooltip title="Undo">

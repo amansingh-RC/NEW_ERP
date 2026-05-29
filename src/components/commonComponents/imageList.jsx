@@ -16,7 +16,6 @@ function srcset(image, width, height, rows = 1, cols = 1) {
 export default function CustomImageList() {
   return (
     <>
-      <h2 className="m-5">Image List</h2>
       <ImageList
         sx={{
           width: 500,

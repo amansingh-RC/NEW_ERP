@@ -4,7 +4,6 @@ import { desktopOS, valueFormatter } from "../componentsData/webUsageStats";
 export default function PieActiveArc() {
   return (
     <>
-      <h2 className="mb-2">Pie Chart</h2>
       <PieChart
         series={[
           {

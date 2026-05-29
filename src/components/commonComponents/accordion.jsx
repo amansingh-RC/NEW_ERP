@@ -8,7 +8,6 @@ export default function AccordionControlled() {
   const [index, setIndex] = React.useState(0);
   return (
     <>
-    <h2 className='mb-10'>Accordion</h2>
       <AccordionGroup sx={{ maxWidth: 400 }}>
         <Accordion
           expanded={index === 0}

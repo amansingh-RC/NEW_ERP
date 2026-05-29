@@ -9,7 +9,6 @@ export default function ResponsiveModal() {
   const [open, setOpen] = React.useState(false);
   return (
     <>
-    <h2 className='mb-2'>Mobile Modal</h2>
       <React.Fragment>
         <Button
           variant="outlined"
