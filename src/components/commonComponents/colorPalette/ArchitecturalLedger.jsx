@@ -95,7 +95,6 @@ export default function ArchitecturalLedger() {
   return (
     <Box
       sx={{
-        border: "2.5px solid #7c6ad6",
         borderRadius: "20px",
         p: 2,
         bgcolor: "#ebebeb",
