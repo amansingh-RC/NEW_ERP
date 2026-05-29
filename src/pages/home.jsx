@@ -37,6 +37,7 @@ import AlertDialog from "../components/commonComponents/alertDialog";
 import MobileModel from "../components/commonComponents/mobileModal";
 import Accordion from "../components/commonComponents/accordion";
 import ArchitecturalLedger from "../components/commonComponents/colorPalette/ArchitecturalLedger";
+import FileUpload from "../components/commonComponents/fileUpload";
 
 const gridRow = {
   display: "grid",
@@ -59,7 +60,12 @@ const Home = () => {
         <PortfolioSection title="Basic Switches" compact>
           <BasicSwitches />
         </PortfolioSection>
+        <PortfolioSection title="File Upload">
+        <FileUpload />
+      </PortfolioSection>
       </Box>
+
+      
 
       <Box sx={gridRow}>
         <PortfolioSection title="ComboBox" compact>

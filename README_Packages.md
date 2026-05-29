@@ -1,9 +1,9 @@
 # Project Packages Details
 
-This document summarizes the packages used in `my-project` based on `package.json` and `package-lock.json`.
+This document summarizes the packages used in `ERP Components` based on `package.json` and `package-lock.json`.
 
 ## Project
-- **name**: `my-project`
+- **name**: `ERP Components`
 - **version**: `0.0.0`
 - **lockfileVersion**: `3`
 
