@@ -37,10 +37,15 @@ import DialogVerticalScroll from "../components/commonComponents/verticalScrollM
 import AlertDialog from "../components/commonComponents/alertDialog";
 import MobileModel from "../components/commonComponents/mobileModal";
 import Accordion from "../components/commonComponents/accordion";
+import ArchitecturalLedger from "../components/commonComponents/colorPalette/ArchitecturalLedger";
 
 const Home = () => {
   return (
     <>
+      <PortfolioSection title="Architectural Ledger">
+        <ArchitecturalLedger />
+      </PortfolioSection>
+
       <PortfolioSection title="Buttons">
         <Buttons />
       </PortfolioSection>
