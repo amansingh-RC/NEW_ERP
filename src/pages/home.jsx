@@ -61,11 +61,9 @@ const Home = () => {
           <BasicSwitches />
         </PortfolioSection>
         <PortfolioSection title="File Upload">
-        <FileUpload />
-      </PortfolioSection>
+          <FileUpload />
+        </PortfolioSection>
       </Box>
-
-      
 
       <Box sx={gridRow}>
         <PortfolioSection title="ComboBox" compact>
